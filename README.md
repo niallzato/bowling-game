@@ -30,6 +30,9 @@ In the tenth frame a player who rolls a spare or strike is allowed to roll the e
 * **Try not to read ahead.**
 * Do **one** task at a time. The trick is to learn to work incrementally.
 
+## Running tests
+Run `rspec` from the root of the project.
+
 ## Requirements
 1. Write a class named `Game` that has two methods roll
    * `roll(pins)` - called each time the player rolls a ball. The argument is the number of pins knocked down.
