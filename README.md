@@ -46,3 +46,6 @@ Run `rspec` from the root of the project.
 4. A spare in the first frame, followed by three pins, followed by all misses scores 16.
 5. A strike in the first frame, followed by three and then four pins, followed by all misses, scores 24.
 6. A perfect game (12 strikes) scores 300.
+
+## References
+[Uncle Bob's Slides](https://www.slideshare.net/lalitkale/bowling-game-kata-by-robert-c-martin)
