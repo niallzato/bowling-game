@@ -4,9 +4,12 @@ Uncle Bob's Bowling Game TDD Kata in Ruby
 ## Setup
 1. Install rbenv via home brew: 
 `brew install rbenv`
-2. Install ruby 2.5.3: `rbenv install 2.5.3`
-3. Install bundler: `gem install bundler`
-4. Run `bundle install`
+2. Append `eval "$(rbenv init -)"` to your `~.bash_profile` (Create `~.bash_profile` if you don't have one)
+3. Restart your terminal
+4. Check rbenv is set up correctly by running `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash`
+5. Install ruby 2.5.3: `rbenv install 2.5.3`
+6. Install bundler: `gem install bundler`
+7. Run `bundle install`
 
 ## Bowling Rules
 
@@ -34,11 +37,10 @@ In the tenth frame a player who rolls a spare or strike is allowed to roll the e
 Run `rspec` from the root of the project.
 
 ## Requirements
-1. Write a class named `Game` that has two methods roll
+1. Write a class named `Game` that has two methods:
    * `roll(pins)` - called each time the player rolls a ball. The argument is the number of pins knocked down.
    * `score()` - is called only at the very end of the game.  It returns the total score for that game.
-
-
+   
 2. Gutter game scores zero - When you roll all misses, you get a total score of zero.
 3. All ones scores 20 - When you knock down one pin with each ball, your total score is 20.
 4. A spare in the first frame, followed by three pins, followed by all misses scores 16.
